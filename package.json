@@ -1,0 +1,20 @@
+{
+  "name": "experimental_live_themes",
+  "version": "1.0.0",
+  "description": "This package provides a collection of experimental live themes that add dynamic and interactive elements to your Built with performance in mind, it ensures smooth, responsive animations without compromising load times.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "live-themes",
+    "thunderstorm-js",
+    "lightspeed-simulation",
+    "rain-simulation",
+    "live-themes",
+    "mylinx"
+  ],
+  "author": "Asadbek Karimov",
+  "license": "MIT"
+}
