@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raindrop</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+    }
+    html {
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    .canvas-background-overlay {
+      width: 100%;
+      height: 100vh;
+      z-index: 0;
+      position: fixed;
+    }
+    .showcase {
+      position: absolute;
+      bottom: 25px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+      font-size: small;
+      color: white;
+      font-weight: 700;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    a {
+      color: #10b981;
+    }
+  </style>
+  <body>
+    <canvas
+      id="bg-canvas"
+      class="canvas-background-overlay"
+      width="1920"
+      height="993"
+    ></canvas>
+    <div class="showcase">
+      <div>Feel free to copy our raindrop source code for free</div>
+      <div>Note: Compress and blur the image for better performance.</div>
+      <div>Use this theme to build your site now at</div>
+      <a href="https://mylinx.cc">Mylinx</a>
+    </div>
+  </body>
+  <script src="./raindrop.js"></script>
+</html>
